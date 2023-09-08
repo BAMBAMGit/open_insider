@@ -1,17 +1,10 @@
 {
-    "routes": [
-      {
-        "src": "/templates/(.*)",
-        "dest": "/templates/$1"
-      },
-      {
-        "src": "/static/(.*)",
-        "dest": "/static/$1"
-      },
-      {
-        "src": "/(.*)",
-        "dest": "/$1"
-      }
-    ]
+    "rewrites": [
+        {
+          "source": "/(.*)",
+          "destination": "/app.py"
+        }
+      ],
+      "version": 2
   }
   
