@@ -7,7 +7,8 @@ app = Flask(__name__)
 def index():
     # Your Python code goes here
     
-    return render_template('index.html', result=result, mydate=mydate, df=df)
+    result = "hello world"
+    return render_template('index.html', result=result) #, mydate=mydate, df=df)
 
 if __name__ == '__main__':
     app.run(debug=True)
