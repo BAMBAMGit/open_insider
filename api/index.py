@@ -7,7 +7,7 @@ app = Flask(__name__)
 def home():
     # Your Python code goes here
     
-    return "hello world"
+    # return "hello world"
     return render_template('index.html', result=result, mydate=mydate, df=df)
 
 # if __name__ == '__main__':
