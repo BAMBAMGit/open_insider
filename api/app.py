@@ -4,7 +4,7 @@ from myscript import result, mydate, df
 app = Flask(__name__)
 
 @app.route('/')
-def index():
+def home():
     # Your Python code goes here
     
     return "hello world"
