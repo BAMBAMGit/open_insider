@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-from myscript import result, mydate, df
+from api.myscript import result, mydate, df
 
 app = Flask(__name__)
 
