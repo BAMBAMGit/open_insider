@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-from myscript import result, mydate, df
+# from myscript import result, mydate, df
 
 app = Flask(__name__)
 
@@ -10,5 +10,5 @@ def home():
     return "hello world"
     return render_template('index.html', result=result, mydate=mydate, df=df)
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# if __name__ == '__main__':
+#     app.run(debug=True)
