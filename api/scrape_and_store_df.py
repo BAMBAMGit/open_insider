@@ -1,6 +1,6 @@
 import pandas as pd
-from scraper_script import scrape_openinsider_and_return_df
-from build_query_params import query_params, base_url
+from api.scraper_script import scrape_openinsider_and_return_df
+from api.build_query_params import query_params, base_url
 
 
 # Initialize an empty DataFrame to store the combined data
