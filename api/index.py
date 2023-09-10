@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-# from api.datetime_helper import date_reformatted_start
+from api.datetime_helper import date_reformatted_start
 # from api.scrape_and_store_df import table_html
 
 app = Flask(__name__)
