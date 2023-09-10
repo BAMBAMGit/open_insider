@@ -10,7 +10,7 @@ def home():
     
     # return "hello world"
 
-    return render_template('index.html', result="hello world!!!" )  #, mydate=date_reformatted_start, df='table_html')
+    return render_template('index.html', result="hello world!!!", mydate=date_reformatted_start)  #, df='table_html')
 
 # if __name__ == '__main__':
 #     app.run()
