@@ -10,6 +10,6 @@ def home():
     # return "hello world"
     return render_template('index.html', result=result, mydate=mydate, df=df)
 
-if __name__ == '__main__':
-    app.run()
+# if __name__ == '__main__':
+#     app.run()
     # app.run(debug=True)
